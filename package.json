@@ -1,0 +1,15 @@
+{
+  "name": "sassMaker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "rssviana",
+  "scripts": {
+    "css:sass": "node-sass --output-style compressed -o css/ sass/ -w",
+    "start": "run-s css:sass"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.2",
+    "npm-run-all": "^4.1.3"
+  }
+}

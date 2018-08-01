@@ -2,6 +2,9 @@
 *.o
 *.obj
 
+node_modules
+yarn.lock
+
 # Compiled Dynamic libraries
 *.so
 *.dylib
